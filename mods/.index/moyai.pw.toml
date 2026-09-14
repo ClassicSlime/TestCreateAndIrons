@@ -1,0 +1,18 @@
+filename = 'moyai-1.21-2.1.7-neoforge.jar'
+name = 'Moyai'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'neoforge_1.21-2.1.7'
+
+[download]
+hash = '9c22d5941b066e8c2f92d1afc4be206f2ce41b834a64b15b678455dfd4231e0eaf52482a8c93cec0ae23aafd92536ddc73fe5a94092e67c2f090efa48e778717'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/z7WhFkyW/versions/SyhonbVK/moyai-1.21-2.1.7-neoforge.jar'
+
+[update.modrinth]
+mod-id = 'z7WhFkyW'
+version = 'SyhonbVK'

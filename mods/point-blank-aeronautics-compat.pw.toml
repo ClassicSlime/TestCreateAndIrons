@@ -1,0 +1,13 @@
+name = "Point Blank Aeronautics compat"
+filename = "pointblank_aero_compat-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b016deb730f1606878f962368e016086820d5f28"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8073109
+project-id = 1540250

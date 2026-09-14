@@ -1,0 +1,13 @@
+name = "Alex's Mobs Continued Delight"
+filename = "amcdelight-1.0.1-neoforge+1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9cbac8c99e4a7748ae81d7e0c8dbe7ffa83900fd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8699088
+project-id = 1658248

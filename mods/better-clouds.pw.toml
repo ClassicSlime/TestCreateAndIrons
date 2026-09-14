@@ -1,0 +1,13 @@
+name = "Better Clouds"
+filename = "better-clouds-1.13.7+1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c59c1d4f8fa9671a68d28a46d58a62a147a2d833"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8832674
+project-id = 1285973

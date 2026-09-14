@@ -1,0 +1,13 @@
+name = "Asterism Arcanum | Addon for Iron's Spells and Spellbooks"
+filename = "asterismarcanum-1.21.1-0.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4a25ba80116168ddcc812f71467c0598127e774a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8157080
+project-id = 1456947

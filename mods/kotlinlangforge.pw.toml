@@ -1,0 +1,13 @@
+name = "KotlinLangForge"
+filename = "KotlinLangForge-2.13.0-k2.4.20-3.0+neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "db3fe62f79897378be178ecf351a5e3e93d633d3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8853180
+project-id = 1244682

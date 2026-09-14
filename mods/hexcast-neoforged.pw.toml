@@ -1,0 +1,13 @@
+name = "HexCast NEOFORGED"
+filename = "hexcast-neoforged-1.21.1-0.11.1-16+neoforge.1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/lZGsiJ1L/versions/pceyKFMr/hexcast-neoforged-1.21.1-0.11.1-16%2Bneoforge.1.21.1.jar"
+hash-format = "sha512"
+hash = "7afe608678f048c61d308367fe2f1bb7d8d49bbbf9671a7e5f0314c91fb56e3a18f73bbd6be246f0ea886e590484380a6cff280a64e2c22411b14ec1911b8023"
+
+[update]
+[update.modrinth]
+mod-id = "lZGsiJ1L"
+version = "pceyKFMr"

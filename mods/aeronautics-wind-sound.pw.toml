@@ -1,0 +1,13 @@
+name = "Aeronautics Wind Sound"
+filename = "aeronautics_windsound-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "85217302bce01231cbed608a2edfecc1f2cb2a81"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8221505
+project-id = 1569619

@@ -1,0 +1,13 @@
+name = "Create Cosmonautics Expansion"
+filename = "rocketnautics_addon-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b9a95f48bdd4928f448ed0125edca80534bc66f9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8582021
+project-id = 1640364

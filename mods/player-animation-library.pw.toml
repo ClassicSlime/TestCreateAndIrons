@@ -1,0 +1,13 @@
+name = "Player Animation Library"
+filename = "PlayerAnimationLibNeoforge-1.1.6+mc.1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "856b2e281b405dab7ca1584a7e9d053e76cc268b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8674792
+project-id = 1283899

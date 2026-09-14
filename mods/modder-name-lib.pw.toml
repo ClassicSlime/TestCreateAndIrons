@@ -1,0 +1,13 @@
+name = "Modder Name Lib"
+filename = "modder_name_lib-1.21.1-neoforge-2026.08.31.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "57396cee5ddc35ace2cc3d0fad51dd76796aefb5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8781621
+project-id = 1332219

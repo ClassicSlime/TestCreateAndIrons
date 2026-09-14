@@ -1,0 +1,13 @@
+name = "Dap ur Homies"
+filename = "DAP ur Homie (bully ur homie).jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b7defafb25dfb49092081aebc22ac7a39f98cb98"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8062696
+project-id = 1423094

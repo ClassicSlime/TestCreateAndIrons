@@ -1,0 +1,491 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "food_and_farming"
+	group: ""
+	icon: {
+		id: "minecraft:cake"
+	}
+	id: "05E614FDA677D85E"
+	images: [
+		{
+			height: 2.0d
+			id: "655EF8C03C14EDCC"
+			image: "minecraft:textures/item/cake.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			id: "1FF9394D48BDF748"
+			image: "minecraft:textures/item/wheat.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5102040816326507d
+			y: -3.0714285714285765d
+		}
+		{
+			height: 1.0d
+			id: "0DCD2422A899E411"
+			image: "minecraft:textures/item/wheat.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			id: "64F5BB7FF134DF47"
+			image: "minecraft:textures/item/wheat_seeds.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.48979591836734215d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			id: "6BADC9D04D9E88BA"
+			image: "minecraft:textures/item/cooked_chicken.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			id: "20C8922C7684E493"
+			image: "minecraft:textures/item/cooked_porkchop.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -1.0d
+		}
+	]
+	order_index: 4
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:missing_item": "pamhc2trees:starfruititem"
+				}
+				id: "ftbquests:missing_item"
+			}
+			icon_scale: 1.5d
+			id: "1827DEEA2DF1B144"
+			rewards: [
+				{
+					id: "2EFEA345691F570D"
+					item: {
+						count: 1
+						id: "minecraft:wheat_seeds"
+					}
+					type: "item"
+				}
+				{
+					id: "769A50AFA27134F2"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "78D7794707E4BD83"
+				item: { components: { "ftbquests:missing_item": "ftbfiltersystem:smart_filter" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43021923E220CF68"]
+			id: "72717D1135486D7F"
+			rewards: [
+				{
+					id: "37CC4C9D02D00F80"
+					item: {
+						count: 1
+						id: "minecraft:wheat"
+					}
+					type: "item"
+				}
+				{
+					id: "3EF6CC70CA664541"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				count: 8L
+				id: "73B6ED422F9292D1"
+				item: { count: 1, id: "minecraft:wheat_seeds" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18EADBAFC932F864"]
+			icon: {
+				id: "minecraft:white_wool"
+			}
+			id: "3EA883C0BB7BD38F"
+			rewards: [
+				{
+					id: "59024F65DCEB9DAA"
+					item: {
+						count: 1
+						id: "minecraft:white_wool"
+					}
+					type: "item"
+				}
+				{
+					id: "1609AC17930BA465"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "7F08D4E77359BF4A"
+				item: { components: { "ftbquests:missing_item": "ftbfiltersystem:smart_filter" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2E9C035EEE7E5C34"]
+			icon: {
+				id: "minecraft:shears"
+			}
+			id: "18EADBAFC932F864"
+			rewards: [{
+				id: "68AA10BF3AA0408A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2725700B5EA1CD75"
+				item: { components: { "ftbquests:missing_item": "ftbfiltersystem:smart_filter" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2E9C035EEE7E5C34"]
+			id: "635620A03E3505BF"
+			rewards: [
+				{
+					id: "0B497B4A001CFFC0"
+					item: {
+						count: 1
+						id: "minecraft:leather"
+					}
+					type: "item"
+				}
+				{
+					id: "0A3A156D2D6F48F2"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "5824C93C84312142"
+				item: { count: 1, id: "minecraft:leather" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			id: "2E9C035EEE7E5C34"
+			rewards: [{
+				id: "04DF879E17A497AD"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "63282E8604721F13"
+				item: { count: 1, id: "minecraft:lead" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["635620A03E3505BF"]
+			id: "73B8A70240E6070E"
+			rewards: [
+				{
+					count: 3
+					id: "6680B692C05EDB9F"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "486994911F40FA8D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "19A9C679111A90BC"
+				item: { count: 1, id: "minecraft:milk_bucket" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2E9C035EEE7E5C34"]
+			id: "1D2EF12FD7FDD217"
+			rewards: [{
+				id: "25D2B3D4AE631792"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				count: 3L
+				id: "46974912B1E8E78B"
+				item: { count: 1, id: "minecraft:egg" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1D2EF12FD7FDD217"]
+			id: "1697CC05D08B388D"
+			rewards: [
+				{
+					id: "634BD1679C226F35"
+					item: {
+						components: {
+							"ftbquests:missing_item": "pamhc2foodcore:friedchickenitem"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "551DA8AE385BDF12"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					count: 10L
+					id: "611CC8005150DC9B"
+					item: { count: 1, id: "minecraft:feather" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "0CAC6A36AC5A6708"
+					item: { count: 1, id: "minecraft:chicken" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "minecraft:iron_hoe"
+			}
+			id: "43021923E220CF68"
+			rewards: [
+				{
+					count: 2
+					id: "70556C33AE952F49"
+					item: {
+						count: 1
+						id: "minecraft:wheat_seeds"
+					}
+					type: "item"
+				}
+				{
+					id: "116FA96039FC2359"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "323A434E1AF54408"
+				item: { components: { "ftbquests:missing_item": "ftbfiltersystem:smart_filter" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -1.5749999999999997d
+			y: 0.0d
+		}
+		{
+			dependencies: ["72717D1135486D7F"]
+			id: "0A1C2A7A8617D3E4"
+			rewards: [
+				{
+					count: 3
+					id: "6EE0FD0DCE6CEEDE"
+					item: {
+						count: 1
+						id: "minecraft:wheat_seeds"
+					}
+					type: "item"
+				}
+				{
+					id: "6DB38B87B2BB0B70"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "6890EB2819D88073"
+				item: { count: 1, id: "minecraft:wheat" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A1C2A7A8617D3E4"]
+			id: "659A903F97F93BE2"
+			rewards: [{
+				id: "382B2B8DF207F44F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				count: 3L
+				id: "03C7F9CB0DDB2D9B"
+				item: { count: 1, id: "minecraft:bread" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["72717D1135486D7F"]
+			id: "361DFDB1E1352D6B"
+			rewards: [
+				{
+					id: "193719E857969260"
+					item: {
+						count: 1
+						id: "minecraft:sugar"
+					}
+					type: "item"
+				}
+				{
+					id: "4DA79EDA168E4CFA"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "6118A776B40507B7"
+				item: { count: 1, id: "minecraft:sugar_cane" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			id: "1DCAA0310AA55F1C"
+			rewards: [{
+				id: "7BB398F5B3A25045"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "5CB4746CCB2E2363"
+				item: { count: 1, id: "minecraft:fishing_rod" }
+				type: "item"
+			}]
+			x: 0.625d
+			y: 1.875d
+		}
+		{
+			dependencies: [
+				"1D48298525EEADC9"
+				"0A1C2A7A8617D3E4"
+			]
+			id: "0893EFCAC7031FEA"
+			rewards: [
+				{
+					id: "2C168199050CC470"
+					item: {
+						count: 1
+						id: "minecraft:cake"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "688019DBD32BF755"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+				{
+					id: "67C04C8A891CB4DD"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "1AA73DEFAA50FDF6"
+				item: { count: 1, id: "minecraft:cake" }
+				type: "item"
+			}]
+			x: -8.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["361DFDB1E1352D6B"]
+			id: "1D48298525EEADC9"
+			rewards: [
+				{
+					count: 3
+					id: "7EAE8BCBABAA8B89"
+					item: {
+						count: 1
+						id: "minecraft:sugar_cane"
+					}
+					type: "item"
+				}
+				{
+					id: "04AB9DC101FCAB74"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "56CAB3D2E3421C7C"
+				item: { count: 1, id: "minecraft:sugar" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+	]
+}

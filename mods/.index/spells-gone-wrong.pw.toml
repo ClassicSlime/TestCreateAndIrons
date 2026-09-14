@@ -1,0 +1,25 @@
+filename = 'spells_gone_wrong-1.21.1-2.0.1.jar'
+name = "Spells Gone Wrong (Iron's Spells N Spellbooks)"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.1-2.0.1'
+
+[download]
+hash = '00389f516532c5e7b054a648c0f0730e4ed22dd3c84c52c568d5235e64cc7963dcd203a342277fd5926f21a9055371f8e5018e487d3c4b3926b3c4a1b010b569'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/4ugLsKOh/versions/wXXqyskO/spells_gone_wrong-1.21.1-2.0.1.jar'
+
+[update.modrinth]
+mod-id = '4ugLsKOh'
+version = 'wXXqyskO'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Vrr7WtS4'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 's4OWxYQQ'
+type = 'REQUIRED'

@@ -1,0 +1,33 @@
+filename = 'sable-cool-rain-1.0.0+1.21.1+neoforge.jar'
+name = 'Sable: Cool Rain'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[neoforge/1.21.1] Sable: Cool Rain v1.0.0'
+
+[download]
+hash = 'ef32ba01c988917c11dccc8a0fcce9c4e7386f73'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8819014
+project-id = 1682313
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '968398'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1312371'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1346978'
+type = 'REQUIRED'

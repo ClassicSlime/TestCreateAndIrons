@@ -1,0 +1,18 @@
+filename = 'pointblank_aero_compat-1.0.0.jar'
+name = 'Point Blank Aeronautics compat'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.0'
+
+[download]
+hash = '0756309e2096fff8afa30c106217d0317c9019d30529d6f29a19919d6f7231779bb94e797272d7bb11fd444fbc0c2a7f8f7dbcffc239ba0ee1bea552da9c044f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/bBG7Mkza/versions/pKXNzwhY/pointblank_aero_compat-1.0.0.jar'
+
+[update.modrinth]
+mod-id = 'bBG7Mkza'
+version = 'pKXNzwhY'

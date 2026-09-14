@@ -1,0 +1,18 @@
+filename = 'monsterspellbooks-0.0.15.jar'
+name = "Iron's Spells 'n Spellbooks:Monsters & Spellbooks"
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.0.15'
+
+[download]
+hash = '6ebfe6cd36d33210b14c31ffb8e23480f4d61ebe3151891f94cf3b727da211a6a8adf4a2727e9f1c12ed97b0a3efd7af5dafcf3b29abca578518e09ba276ca6c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/3DnnAUlF/versions/ZHK688CD/monsterspellbooks-0.0.15.jar'
+
+[update.modrinth]
+mod-id = '3DnnAUlF'
+version = 'ZHK688CD'

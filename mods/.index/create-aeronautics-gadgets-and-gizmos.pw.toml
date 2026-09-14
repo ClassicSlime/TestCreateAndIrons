@@ -1,0 +1,25 @@
+filename = 'gadgets-and-gizmos-bundled-V1.2.2.jar'
+name = 'Create Aeronautics: Gadgets & Gizmos'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.2.2'
+
+[download]
+hash = '4a4e085937c35d068c268c55e640c789fb7899afe1ce58614f44a93c45b288e950e516a279510c4dc50a537acb1589624f56a351810a601e2882002ef7045558'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Sza3GgEL/versions/MjBMc4RD/gadgets-and-gizmos-bundled-V1.2.2.jar'
+
+[update.modrinth]
+mod-id = 'Sza3GgEL'
+version = 'MjBMc4RD'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'oWaK0Q19'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'

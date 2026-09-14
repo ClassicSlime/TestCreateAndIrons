@@ -1,0 +1,13 @@
+name = "Create and Irons"
+author = "ClassicSlime"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "b314068e22748be8d12a43219858f2eac7f938b581b762766a3642796d4653b8"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.249"

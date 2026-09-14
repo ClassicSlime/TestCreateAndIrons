@@ -1,0 +1,13 @@
+name = "EMF Compat: Iron's Spells 'n Spellbooks"
+filename = "emf_compat_iron_spells_1.21.1_2.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "515b545870fce128bbf01a0ccacdd19566ed3b22"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8793934
+project-id = 1629298

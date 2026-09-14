@@ -1,0 +1,21 @@
+filename = 'DAP ur Homie (bully ur homie).jar'
+name = 'Dap ur Homies'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'DAP ur Homie 1.21.1 (bully ur homie).jar'
+
+[download]
+hash = 'b7defafb25dfb49092081aebc22ac7a39f98cb98'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8062696
+project-id = 1423094
+
+[[x-prismlauncher-dependencies]]
+addonId = '1283899'
+type = 'REQUIRED'

@@ -1,0 +1,29 @@
+filename = 'better-clouds-1.13.7+1.21.1-neoforge.jar'
+name = 'Better Clouds'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Release 1.13.7 for 1.21.1 NeoForge'
+
+[download]
+hash = 'c59c1d4f8fa9671a68d28a46d58a62a147a2d833'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8832674
+project-id = 1285973
+
+[[x-prismlauncher-dependencies]]
+addonId = '394468'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '667299'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '455508'
+type = 'OPTIONAL'

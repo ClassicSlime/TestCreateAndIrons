@@ -1,0 +1,13 @@
+name = "Create Furnace Lava Adapter"
+filename = "create_furnace_lava_adapter-1.21.1-1.7.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "be0828d7c2191f7dbfb4c29187af2f12df1c45f5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8542413
+project-id = 1103828

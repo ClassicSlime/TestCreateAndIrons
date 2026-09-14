@@ -1,0 +1,29 @@
+filename = 'cosmonautics-26.08.307.jar'
+name = 'Create Cosmonautics'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '26.08.307'
+
+[download]
+hash = '9b70ebf3ff2beaee0ab0ba6c8f46643da3e4f4fc'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8612744
+project-id = 1595491
+
+[[x-prismlauncher-dependencies]]
+addonId = '1312371'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '676721'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'

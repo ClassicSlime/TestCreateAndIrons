@@ -1,0 +1,61 @@
+{
+	id: "1EC6956FA2BB2B00"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			count: 3
+			id: "599962C71292E318"
+			item: {
+				count: 1
+				id: "minecraft:chest"
+			}
+			random_bonus: 2
+			weight: 1.5f
+		}
+		{
+			count: 3
+			id: "3DC9B3685E4C8492"
+			item: {
+				count: 1
+				id: "minecraft:barrel"
+			}
+			random_bonus: 2
+			weight: 1.5f
+		}
+		{
+			count: 2
+			id: "64AFAC5396968DF8"
+			item: {
+				count: 1
+				id: "minecraft:ender_chest"
+			}
+			random_bonus: 1
+			weight: 0.75f
+		}
+		{
+			count: 2
+			id: "49B02DB1CBAE715B"
+			item: {
+				components: {
+					"ftbquests:missing_item": "sophisticatedbackpacks:upgrade_base"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			random_bonus: 1
+			weight: 1.5f
+		}
+		{ id: "09AEBD67369F6FF7", item: { count: 1, id: "minecraft:chest_minecart" } }
+		{
+			id: "7C2FF93221715446"
+			item: {
+				count: 1
+				id: "minecraft:hopper"
+			}
+			random_bonus: 1
+			weight: 1.5f
+		}
+		{ id: "02BA8DC1689E6AB0", item: { count: 1, id: "minecraft:oak_chest_boat" } }
+	]
+}

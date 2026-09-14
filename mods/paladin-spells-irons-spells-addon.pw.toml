@@ -1,0 +1,13 @@
+name = "Paladin Spells - Iron's Spells Addon"
+filename = "paladin_spells-1.21.1-1.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e4c6f4fa70989f0b9f1819e46e29f68d414ccbaf"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8661566
+project-id = 1593269

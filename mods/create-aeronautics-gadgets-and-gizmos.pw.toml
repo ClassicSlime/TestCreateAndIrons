@@ -1,0 +1,13 @@
+name = "Create Aeronautics: Gadgets & Gizmos"
+filename = "gadgets-and-gizmos-bundled-V1.2.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1694bb6f99100557faf80fece178a2a4dd4892de"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8874329
+project-id = 1537945

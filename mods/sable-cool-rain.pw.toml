@@ -1,0 +1,13 @@
+name = "Sable: Cool Rain"
+filename = "sable-cool-rain-1.0.0+1.21.1+neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ef32ba01c988917c11dccc8a0fcce9c4e7386f73"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8819014
+project-id = 1682313

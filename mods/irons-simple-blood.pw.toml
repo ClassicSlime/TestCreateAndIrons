@@ -1,0 +1,13 @@
+name = "Iron's Simple Blood"
+filename = "simpleblood-1.21.1-1.0.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "94af93d7b90dc20681585b41ab6ea7fb80a34653"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8701640
+project-id = 1579118

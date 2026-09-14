@@ -1,0 +1,13 @@
+name = "Irons Spells 'n Spellbooks Restrictions"
+filename = "irons_restrictions-1.21.1-5.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "041d4742fbd941751391f7b3cd0a589b1fcffb99"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8448221
+project-id = 1330168

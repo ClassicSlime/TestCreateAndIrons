@@ -1,0 +1,73 @@
+#In vanilla, when adding a new attribute to a weapon with only base attributes (such as attack damage and attack speed), it will overwrite them. 
+#If you attempt to add 10 fire damage to a diamond sword that deals 7 damage, you would expect 17 damage. 
+#But what happens is the +6 damage the sword gives is overwritten, so it only deals 11 damage. 
+#If this setting is true, weapons' base damage and attack speed will be kept, when adding a new attribute.
+#Default: true
+copyWeaponsDefaultAttributesToNewWeapons = true
+enableDebugMode = false
+#If true, elemental damage from ISS and this mod will be rounded to the nearest integer.
+roundFinalDamage = false
+
+[Crit]
+	#Disable vanilla's forced 100% crit chance that happens when a player melee attacks as they are falling.
+	#Default: false
+	disableVanillaFallingCrit = false
+	#Disables vanilla's forced 100% crit chance that happens when a bow is fully charged, or if an arrow is shot out of a crossbow.
+	#Default: false
+	disableVanillaFullyChargedBowCrits = false
+	#This is an id of an attribute. (Can be from another mod that provides attributes like Apothic Attributes aka. attributeslib.) Specifically, this option will use that mod's crit chance attribute as its own for attacks.
+	#Default: "elementalattackdamagecompat:attack_crit_chance"
+	attackCritChanceAttributeId = "elementalattackdamagecompat:attack_crit_chance"
+	#Same as the last one, but for crit damage instead.
+	#Default: "elementalattackdamagecompat:attack_crit_damage"
+	attackCritDamageAttributeId = "elementalattackdamagecompat:attack_crit_damage"
+	#If you already have a global crit attribute you want to use, this option modifiers whether the two above crit attributes will also apply to spells, 
+	#such as from Iron's Spells and Spellbooks. If false, the crit attributes will only apply to attacks, and this mod will use its global attributes instead.
+	#Default: false
+	applyAttackCritAttributesGlobally = false
+	#If applyAttackCritAttributesGlobally is true, then this and the next option won't be used. 
+	#This attribute id gets the attribute used, and it will affect the crit chance of both attacks and spells.
+	#Default: "elementalattackdamagecompat:global_crit_chance"
+	globalCritChanceAttributeId = "elementalattackdamagecompat:global_crit_chance"
+	#Same as the last one, but for crit damage instead.Default: "elementalattackdamagecompat:global_crit_damage"
+	globalCritDamageAttributeId = "elementalattackdamagecompat:global_crit_damage"
+	#This is the id of an attribute that provides crit chance, but specifically for spells. 
+	#If applyAttackCritAttributesGlobally is true, crit chance & crit damage from the above attributes will be added to these values when calculating damage.
+	#Default: "elementalattackdamagecompat:spell_crit_chance"
+	spellCritChanceAttributeId = "elementalattackdamagecompat:spell_crit_chance"
+	#Same as the last one, but for crit damage instead.
+	#Default: "elementalattackdamagecompat:spell_crit_damage"
+	spellCritDamageAttributeId = "elementalattackdamagecompat:spell_crit_damage"
+	#if 'applyAttackCritAttributesGlobally' is true: 
+	#total *spell* crit chance will be the sum of attack crit chance + spell crit chance + this value.
+	#total *attack* crit chance will be the sum of attack crit chance + this value.
+	#if false: 
+	#	total *spell* crit chance will be the sum of global crit chance + spell crit chance + this value, and 
+	#	total *attack* crit chance will be the sum of global crit chance + attack crit chance + this value.
+	#Default: 0 (a 1 means minus 100% flat crit chance)
+	# Default: 0.0
+	# Range: -Infinity ~ Infinity
+	modCompatCritChanceOffset = 0.0
+	#if 'applyAttackCritAttributesGlobally' is true: total *spell* crit damage is the sum of the sum of attack crit damage + spell crit damage + this value.
+	#total *attack* crit damage will be the sum of attack crit damage + this value.
+	#if false: 
+	#	total *spell* crit damage will be the sum of global crit damage + spell crit damage + this value, and 
+	#	total *attack* crit damage will be the sum of global crit damage + attack crit damage + this value.
+	#Default: 0 (a 1 means minus 100% flat crit damage)
+	# Default: 0.0
+	# Range: -Infinity ~ Infinity
+	modCompatCritDamageOffset = 0.0
+
+["Classify Types"]
+	#Spells from schools in these lists will be categorized into Type 1, Type 2, and Type 3, ... and benefit from "Type 1", "Type 2", "Type 3", ... damage modifiers respectively.
+	#Category name is customizable by going to your lang file, and using 'multipliers.type_1_damage', 'multipliers.type_2_damage', and 'multipliers.type_3_damage'.
+	#Default list: ["fire", "ice", "lightning", "geo", "aqua"]
+	type_1_schools = ["fire", "ice", "lightning", "geo", "aqua"]
+	#Default list: ["holy", "ender", "eldritch", "abyssal"]
+	type_2_schools = ["holy", "ender", "eldritch", "abyssal"]
+	#Default list: ["blood", "nature", "evocation"]
+	type_3_schools = ["blood", "nature", "evocation"]
+	#Default list: ["sound", "technomancy"]
+	type_4_schools = ["sound", "technomancy"]
+	#Default list: []
+	type_5_schools = []

@@ -1,0 +1,180 @@
+#--------------------------------------------------------------------
+#|                     FUNDAMENTAL PRINCIPLES CONFIG                |
+#--------------------------------------------------------------------
+#
+[spellbooks]
+	#Whether unique spellbooks should have locked spells. Default: false
+	lockedSpells = false
+	#Whether leveling spellbook mechanic should be active. Default: false
+	#(!MPORTANT) Slot changes will not be applied to existing spellbooks generated before turning the config off.
+	spellbookLeveling = true
+	#Whether spell inscription should be restricted to spellbook level. Default: true
+	restrictedInscription = true
+	#Multiplier for experience added to spellbook.
+	# Default: 1
+	# Range: 0 ~ 10
+	spellbookXpMultiplier = 1
+
+[dominan]
+	#Level required for each principle to use dominan spells according to their rarity.
+	#Order: [COMMON, UNCOMMON, RARE, EPIC, LEGENDARY] -> DEFAULT: [0, 5, 8, 12, 15]
+	dominanMinLevels = [0, 5, 8, 12, 15]
+	#The amount of principles a spell should have to be considered a DOMINAN spell.
+	# Default: 4
+	# Range: 0 ~ 13
+	principlesForDominan = 4
+
+[fatigue]
+	#Whether all the Fatigue System should be active.
+	fatigueSystem = true
+	#Max amount of fatigue pts per fatigue stage.
+	#DEFAULT: [0, 5, 8, 12, 15]
+	maxFatigue = [50, 100, 200, 100, 50]
+	#The multiplier to produce fatigue.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	fatigueMultiplier = 1.0
+	#Fatigue Spell Power Debuff multipliers: 
+	#Fatigue Levels: [0,1,2,3,4] -> DEFAULT: [1.00, 0.90, 0.75, 0.50, 0.20]
+	fatigueSpellpowerMultipliers = [1.0, 0.9, 0.75, 0.5, 0.2]
+	#The percentage multiplier of mana regen reduction per fatigue level. (DEFAULT -15% per fatigue level -> -60% in 4th fatigue level.
+	# Default: 0.15
+	# Range: 0.0 ~ 0.25
+	fatigueManaRegen = 0.15
+
+[principles_system]
+	#Whether all about PRINCIPLES SYSTEM should be active.
+	principles = true
+	#Defines the base SP percentage reduction (or addition) applied to spells at the start per Principle.
+	# Default: -0.1
+	# Range: -0.9 ~ 100.0
+	basePower = -0.1
+	#Defines the SP addition per Principle level.
+	# Default: 0.01
+	# Range: 0.0 ~ 100.0
+	levelAddition = 0.01
+	#Whether Subcategories (Potentia, Vitale and Expansio) should be affected by half the power of buff/debuff of the originals.
+	subprinciples = true
+	#Experience multiplier for Priciples leveling.
+	# Default: 1
+	# Range: 0 ~ 10
+	principleXpMultiplier = 1
+	#Whether CONCENTRATIO passive should be active.
+	concentratioPassive = true
+	#Mana addition per Concentratio level.
+	# Default: 20
+	# Range: 0 ~ 10000
+	manaAdd = 20
+	#Whether POTENTIA passive should be active.
+	potentiaPassive = true
+	#Base accuracy for projectiles.
+	# Default: 0.4
+	# Range: 0.0 ~ 1.0
+	accuracyBase = 0.4
+	#Accuracy Addition per Potentia Level.
+	# Default: 0.03
+	# Range: 0.0 ~ 1.0
+	accuradyAdd = 0.03
+	#Whether VITALE passive should be active.
+	vitalePassive = true
+	#Percentage Cooldown reduction per Vitale level.
+	# Default: 0.045
+	# Range: 0.0 ~ 1.0
+	cdrAdd = 0.045
+	#Whether EXPANSIO passive should be active.
+	expansioPassive = true
+	#Base radius multiplier for AoE entities
+	# Default: 0.5
+	# Range: 0.0 ~ 10.0
+	aoeBaseRadius = 0.5
+	#Radius addition per Expansio level.
+	# Default: 0.05
+	# Range: 0.0 ~ 10.0
+	aoeAddRadius = 0.05
+	#Whether APPARITIO passive should be active.
+	apparitioPassive = true
+	#Percentage addition for successful teleport per Apparitio Level.
+	# Default: 0.025
+	# Range: 0.0 ~ 1.0
+	successTpAdd = 0.025
+	#Whether REPETITIO passive should be active.
+	repetitioPassive = true
+	#Chance addition to get an additional cast per Repetitio level.
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	addChanceCast = 0.05
+	#Whether PERCEPTIO passive should be active.
+	perceptioPassive = true
+	#Range addition per Perceptio level
+	# Default: 1.5
+	# Range: 0.0 ~ 10.0
+	addRange = 1.5
+	#Whether LOCUS passive should be active.
+	locusPassive = true
+	#Percentage base distance for targeting
+	# Default: 0.4
+	# Range: 0.0 ~ 1.0
+	percentageBaseRange = 0.4
+	#Percentage addition for targeting per Locus level.
+	# Default: 0.02
+	# Range: 0.0 ~ 1.0
+	percentageAddRange = 0.02
+	#Whether CERTUM passive should be active.
+	certumPassive = true
+	#Fatigue Mana Addition multipliers for Certum: 
+	#Fatigue Levels: [0,1,2,3,4] -> DEFAULT: [0.00, 0.50, 0.80, 1.20, 1.60]
+	fatigueManaAdditionMultipliers = [0.0, 0.5, 0.8, 1.2, 1.6]
+	#Mana percentage reduction debuff per CERTUM level.
+	# Default: 0.02
+	# Range: 0.0 ~ 1.0
+	manaDebuffReduction = 0.02
+	#Whether REMEDIUM passive should be active.
+	remediumPassive = true
+	#Base amount of food pts to be consumed per healing point.
+	# Default: 3.0
+	# Range: 0.0 ~ 100.0
+	baseFoodPts = 3.0
+	#Points to be reduced from the base amount per Remedium level
+	# Default: 0.125
+	# Range: 0.0 ~ 10.0
+	subFoodPts = 0.125
+	#Whether MOTUS passive should be active.
+	motusPassive = true
+	#Percentage casting movespeed addition.
+	# Default: 0.05
+	# Range: 0.0 ~ 10.0
+	addMovespeed = 0.05
+	#Whether AUGERE passive should be active.
+	augerePassive = true
+	#Damage point addition per level.
+	# Default: 0.5
+	# Range: 0.0 ~ 10.0
+	addDamagePts = 0.5
+	#Whether PERTINACIA passive should be active.
+	pertinaciaPassive = true
+	#Percentage base time multiplier for beneficial effects.
+	# Default: 0.6
+	# Range: 0.0 ~ 10.0
+	baseBeneficialMultiplier = 0.6
+	#Percentage addition to time multiplier for beneficial effects.
+	# Default: 0.04
+	# Range: 0.0 ~ 10.0
+	addBeneficialMultiplier = 0.04
+	#Percentage base time multiplier for harmful effects.
+	# Default: 1.4
+	# Range: 0.0 ~ 10.0
+	baseHarmfulMultiplier = 1.4
+	#Percentage subtraction to time multiplier for harmful effects.
+	# Default: 0.04
+	# Range: 0.0 ~ 10.0
+	addHarmfulMultiplier = 0.04
+
+[others]
+	#Chance of a melee spellcaster mob of landing a star alignment.
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	mobStarAlignment = 0.05
+	#Damage Multiplier for star alignment critic.
+	# Default: 2.0
+	# Range: 0.0 ~ 100.0
+	alignmentDamageMultiplier = 2.0

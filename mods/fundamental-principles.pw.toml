@@ -1,0 +1,13 @@
+name = "Fundamental Principles - Iron's Spells Addon"
+filename = "ypfundamentals-1.1.7.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a2855c253202a8fcc2925fcf5b1bf86d64fbe4da"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8558503
+project-id = 1347399

@@ -1,0 +1,13 @@
+name = "Elemental Attack Damage Compat For Iron's Spells and Spellbooks"
+filename = "elementalattackdamagecompat-1.2.8-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/O9BOTj1n/versions/NiyWAUsG/elementalattackdamagecompat-1.2.8-1.21.1.jar"
+hash-format = "sha512"
+hash = "b3e7035914db8f41cb5665e897d9b72b231f8fc9a92bf7943165fe51b8a839203ea0990e8ad7b65e272ed403a396869aa9e2931d682d8e00b0072687981a7a35"
+
+[update]
+[update.modrinth]
+mod-id = "O9BOTj1n"
+version = "NiyWAUsG"

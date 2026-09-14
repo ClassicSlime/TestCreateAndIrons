@@ -1,0 +1,13 @@
+name = "Wind's Spellbooks : Iron's Spells 'n Spellbooks Addon"
+filename = "wind_spellbooks-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "84fec13f30dc9646625ecc7f009c6592fc65d21b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7955793
+project-id = 1519158

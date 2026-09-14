@@ -1,0 +1,18 @@
+filename = 'dreamless_spells-1.1.9.jar'
+name = 'Dreamless Spells'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.9'
+
+[download]
+hash = '6fc680f96c54a934b877b0c40517ed6f4a7076463c1e8f4128c2a4587bd668cf7953233eac9c96c692cc0ad2c3ed92131e270609c8e0b4232fefec46639cd5ce'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/b4S1NxOz/versions/POfGUUwB/dreamless_spells-1.1.9.jar'
+
+[update.modrinth]
+mod-id = 'b4S1NxOz'
+version = 'POfGUUwB'

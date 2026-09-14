@@ -1,0 +1,13 @@
+name = "Iron's Sable compat"
+filename = "ironssablecompat-1.0.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/r8EE9HjB/versions/P1rXi95l/ironssablecompat-1.0.5.jar"
+hash-format = "sha512"
+hash = "6b69f6929f8fad620266a755da1ffab1db4bde3d5f608f4a26b448982051b3092fd8f800594538335980c1713d6f200a8f390793e01a59550629cc84f9c4b039"
+
+[update]
+[update.modrinth]
+mod-id = "r8EE9HjB"
+version = "P1rXi95l"

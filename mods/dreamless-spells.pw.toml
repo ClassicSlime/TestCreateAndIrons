@@ -1,0 +1,13 @@
+name = "Dreamless Spells and Spellbooks"
+filename = "dreamless_spells-1.1.9.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d51960bfb8af1aafa5d716ef9a48c3135f36b956"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7905334
+project-id = 1250250

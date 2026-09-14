@@ -1,0 +1,7 @@
+#--------------------------------------------------------------------
+#|                     FUNDAMENTAL PRINCIPLES CLIENT CONFIGS         |
+#--------------------------------------------------------------------
+#
+[others]
+	fatigueCounterXOffset = 0
+	fatigueCounterYOffset = 0
